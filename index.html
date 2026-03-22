@@ -76,11 +76,13 @@
         Hope you'll like it....
     </p>
 
-    <button onclick="startTyping()">PRESS OR CLICK</button>
+    <button onclick="showLetter()">PRESS OR CLICK</button>
 </div>
 
 <script>
-const text = `I don’t know the perfect words, even though I am good with words.
+function showLetter() {
+     document.getElementById("message").innerHTML = `
+    const text = `I don’t know the perfect words, even though I am good with words.
 You are someone who was a very, very dear friend to me.
 
 But it was too late for me to realize that my feelings for you
@@ -118,6 +120,7 @@ To you ,   10 yrs after .....
    Are you happy  ?
 
 — From the CLASS TOPPER ️`;
+    }
     </script>
 </body>
 </html>
